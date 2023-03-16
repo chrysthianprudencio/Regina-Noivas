@@ -1,0 +1,59 @@
+body {
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+
+    background-image: url(/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    display: block;
+    height: 100vh;
+}
+
+.nav-bar, .nav-bar-list, li {
+
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    padding: 0px 48px 0px 0px;
+    gap: 55px;
+    left: 120px;
+    top: 19px;
+}
+
+.nav-bar-list a {
+
+    text-decoration: none;
+}
+
+.nav-bar-list a {
+
+    font-family: 'Playfair Display';
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #1E1E1E;
+}
+
+.logo {
+
+    position: relative;
+    left: 65px;
+    top: -54px;
+}
+
+
+.title {
+
+    font-family: 'Playfair Display';
+    font-style: 45px;
+    line-height: 45px;
+    position: relative;
+    left: 80px;
+    color: #9E6713;
+}
+
